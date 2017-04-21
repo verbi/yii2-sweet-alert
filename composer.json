@@ -1,0 +1,24 @@
+{
+	"name": "verbi/yii2-sweet-alert",
+	"description": "Yii2 SweetAlert",
+	"keywords": ["yii2", "extension", "asset", "SweetAlert"],
+	"type": "yii2-extension",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Philip Verbist",
+			"email": "philip.verbist@gmail.com"
+		}
+	],
+	"support": {
+		"source": "http://github.com/verbi/yii2-sweet-alert"
+	},
+	"autoload": {
+		"psr-4": {
+			"verbi\\yii2SweetAlert\\": "src/"
+		}
+	},
+        "require": {
+            "npm-asset/sweetalert": "*"
+        }
+}
