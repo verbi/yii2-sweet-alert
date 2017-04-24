@@ -13,8 +13,13 @@ use yii\web\AssetBundle;
 class BaseSweetAlertAsset extends AssetBundle
 {
     public $depends = [
+        'yii\web\YiiAsset',
     ];
-    public $sourcePath = '@vendor/npm-assets/sweetalert';
+    public $sourcePath = '@vendor/npm/sweetalert/dist';
+    public $css = [
+        'sweetalert.css',
+    ];
     public $js = [
+        'sweetalert.min.js',
     ];
 }
