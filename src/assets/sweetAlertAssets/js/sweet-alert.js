@@ -1,5 +1,4 @@
 yii.confirm = function (message, okCallback, cancelCallback) {
-   alert(okCallback);
    swal({
        title: message,
        type: 'warning',
