@@ -3,7 +3,7 @@
 	"description": "Yii2 SweetAlert",
 	"keywords": ["yii2", "extension", "asset", "SweetAlert"],
 	"type": "yii2-extension",
-	"license": "GPLv3",
+	"license": "GPL-3.0-or-later",
 	"authors": [
 		{
 			"name": "Philip Verbist",
